@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './nav/nav_bar';
+import NavBar from '../../components/navbar/nav-bar';
 
 
 class About extends Component {
@@ -9,8 +9,8 @@ class About extends Component {
 
   render() {
     return (
-      <div className="wrapper">
-        <NavBar />
+      <div>
+        <h1 className="about">About</h1>
       </div>
     );
   }

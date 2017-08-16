@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 class SideBar extends Component {
   constructor(props) {
@@ -33,4 +33,4 @@ class SideBar extends Component {
   }
 }
 
-export default SideBar;
+export default withRouter(SideBar);
