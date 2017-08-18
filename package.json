@@ -20,13 +20,14 @@
     "react-scripts": "^1.0.11",
     "react-tap-event-plugin": "^2.0.1",
     "react-transition-group": "^2.2.0",
-    "youtube-api-search": "^0.0.5"
+    "youtube-api-search": "0.0.5"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.5",
+    "eslint-config-rallycoding": "^3.2.0",
     "npm-run-all": "^4.0.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5"
