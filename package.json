@@ -35,7 +35,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass-chokidar --include-path ./src src/ -o public/styles/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src src/ -o public/ --watch --recursive",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src src/ -o public/styles/ --watch --recursive",
     "start-js": "react-scripts start",
     "build": "npm run build-css && start-js build",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js && npm run watch-css",
