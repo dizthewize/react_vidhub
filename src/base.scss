@@ -16,6 +16,16 @@ body {
   z-index: 0;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header"
+    "main main . side-panel"
+    "footer footer footer";  
+}
+
 .fade-enter {
   opacity: 0.01;
 }
