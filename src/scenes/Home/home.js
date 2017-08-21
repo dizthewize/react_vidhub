@@ -46,9 +46,9 @@ class Home extends Component {
         </div>
         <div className="row column-3">
           <div className="column-3-item">
-            <VideoList
-              onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
-              videos={this.state.videos} />
+          <VideoList
+            onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
+            videos={this.state.videos} />
           </div>
         </div>
       </div>

@@ -76,26 +76,26 @@
   }
 }
 
-.video-list img {
-  max-width: 100%;
-  height: auto;
-  padding: 5px
-}
-
 .list-items {
   cursor: pointer;
-  align-self: end;
-  border: 1px solid black;
+  border: 1px solid #ddd;
   border-radius: 4px;
 
   .list-group-item {
     padding: 5px;
 
+
     .video-list {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: baseline;
-      align-items: center;
+      // display: flex;
+      // flex-wrap: nowrap;
+      // justify-content: baseline;
+      // align-items: center;
+
+      img {
+        width: 64px;
+        height: auto;
+        padding: 5px;
+      }
     }
   }
 

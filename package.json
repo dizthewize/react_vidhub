@@ -38,6 +38,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src src/ -o public/styles/ --watch --recursive",
     "start-js": "react-scripts start",
     "build": "npm run build-css && start-js build",
+    "dev-server": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js && npm run watch-css",
     "eject": "react-scripts eject"
   },
