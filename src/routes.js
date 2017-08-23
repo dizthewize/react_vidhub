@@ -16,14 +16,14 @@ class Routes extends Component {
     this.state = { show: false };
 
     setInterval(() => {
-      this.setState({ show: !this.state.show })
+      this.setState({ show: !this.state.show });
     }, 4000);
   }
 
   render() {
     let { location } = this.props;
     return (
-      <div className="site">
+      <div>
         <NavBar />
         <TransitionGroup>
           <CSSTransition

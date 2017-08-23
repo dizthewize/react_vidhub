@@ -11,8 +11,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 injectTapEventPlugin();
 
 ReactDOM.render(
-  <Router>
+  <Router basename="vidhub">
     <MuiThemeProvider>
       <Routes />
     </MuiThemeProvider>
-  </Router>, document.querySelector('.container'));
+  </Router>, document.querySelector('#app'));
