@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Link, withRouter, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import AppBar from 'material-ui/AppBar';
 
-import SideBar from '../sidebar/side-bar';
+import SideBar from '../SideBar/side-bar';
 
 class NavBar extends Component {
   constructor(props) {
@@ -47,7 +47,6 @@ class NavBar extends Component {
      </header>
     );
   }
-
 }
 
-export default withRouter(NavBar);
+export default NavBar;
