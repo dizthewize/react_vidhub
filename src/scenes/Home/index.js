@@ -33,24 +33,12 @@ class Home extends Component {
     const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 400);
 
     return (
-      <div className="wrapper">
-        <div className="row column-1">
-          <div className="column-1-item">
-            <SearchBar onSearchTermChange={videoSearch} />
-          </div>
-        </div>
-        <div className="row column-2">
-          <div className="column-2-item">
-            <VideoDetail video={this.state.selectedVideo} />
-          </div>
-        </div>
-        <div className="row column-3">
-          <div className="column-3-item">
-          <VideoList
-            onVideoSelect={selectedVideo => this.setState({selectedVideo}) }
-            videos={this.state.videos} />
-          </div>
-        </div>
+      <div>
+        <SearchBar onSearchTermChange={videoSearch} />
+        <VideoDetail video={this.state.selectedVideo} />
+        <VideoList
+          onVideoSelect={selectedVideo => this.setState({ selectedVideo }) }
+          videos={this.state.videos} />
       </div>
     );
   }

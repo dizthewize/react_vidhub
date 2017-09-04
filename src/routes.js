@@ -23,7 +23,7 @@ class Routes extends Component {
   render() {
     let { location } = this.props;
     return (
-      <div className="site">
+      <div>
         <NavBar />
         <TransitionGroup>
           <CSSTransition

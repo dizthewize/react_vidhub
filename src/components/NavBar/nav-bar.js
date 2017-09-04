@@ -32,7 +32,7 @@ class NavBar extends Component {
     };
     const title =
       <div className="nav-wrapper">
-        <h1><Link to="/">VidHub</Link></h1>
+        <h1 className="title"><Link to="/">VidHub</Link></h1>
       </div>;
     return (
       <header>
