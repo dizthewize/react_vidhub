@@ -1,0 +1,52 @@
+// Import Reset stylesheet
+@import "scss/reset";
+
+// Import BootStrap Features
+@import "scss/bootstrap/_bootstrap.scss";
+
+// Import base stylesheets for all scenes
+
+
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  z-index: 0;
+}
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+
+  span a {
+    color: black;
+
+    &:hover {
+      color: #6352b0;
+      text-decoration: none;
+    }
+  }
+}
+
+@import "scss/about";
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
