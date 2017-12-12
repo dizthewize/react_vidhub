@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>&copy; Developed by <span>
-        <a href="">Martez Conner</a>
+        <a className="name-url" href="http://www.martezconner.com">Martez Conner</a>
       </span>
       </p>
     </footer>

@@ -22,10 +22,11 @@ body {
   text-align: center;
 
   span a {
-    color: black;
+    color: red;
 
     &:hover {
-      color: #6352b0;
+      // color: #6352b0;
+      color: red;
       text-decoration: none;
     }
   }

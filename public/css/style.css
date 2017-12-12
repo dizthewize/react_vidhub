@@ -170,7 +170,7 @@ body {
 }
 
 .footer span a {
-    color: rgba(255, 255, 255, 1);
+    color: #ccc;
 }
 
 .footer span a:hover {
